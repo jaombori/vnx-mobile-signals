@@ -1,0 +1,26 @@
+{
+  "schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "productName": {
+      "type": "string",
+      "title": "Product name",
+      "default": "My Example Product"
+    },
+    "productPrice": {
+      "type": "string",
+      "title": "Product price",
+      "default": "99 USD"
+    },
+    "device": {
+      "title": "Device",
+      "type": "object"
+    }
+  },
+  "required": [
+    "productName",
+    "productPrice"
+  ],
+  "title": "Example schema",
+  "definitions": {}
+}

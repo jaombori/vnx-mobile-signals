@@ -1,0 +1,7 @@
+{
+  "productName": {},
+  "productPrice": {},
+  "device": {
+    "ui:field": "devicePicker"
+  }
+}

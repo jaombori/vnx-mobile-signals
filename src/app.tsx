@@ -3,9 +3,7 @@ import { getInstance as gs } from '@ombori/grid-signals-react';
 import styled from 'styled-components';
 import { useSettings } from '@ombori/ga-settings';
 import logo from './logo.svg';
-
 import { Schema as Settings } from './schema';
-import { clearInterval } from 'timers';
 
 function App() {
   const [productCount, setProductCount] = useState(0);

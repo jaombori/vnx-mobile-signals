@@ -8,6 +8,7 @@ const {
   REACT_APP_ACCESS_ID,
   REACT_APP_ACCESS_TOKEN,
   REACT_APP_SPACE_ID,
+  REACT_APP_TENANT_ID,
   NODE_ENV
 } = process.env;
 
@@ -19,6 +20,7 @@ const Init = () => {
     accessId: REACT_APP_ACCESS_ID,
     accessToken: REACT_APP_ACCESS_TOKEN,
     spaceId: REACT_APP_SPACE_ID,
+    tenantId: REACT_APP_TENANT_ID,
   });
 
   if (!isSignalsReady) {
